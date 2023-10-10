@@ -1,0 +1,47 @@
+.relative-pos{
+    position: relative;
+    background-color: BLACK;
+    height: 300px;
+    width: 300px;
+    left: 30px;
+    top: 30px;
+    color: white;
+    
+}
+.absolute-pos{
+    position: absolute; 
+    background-color:aquamarine;
+    bottom: 0px;
+
+}
+.fixed-pos{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: orangered;
+    color:bisque;
+    padding: 1rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sticky-pos {
+    position: sticky;
+    background-color: brown;
+    top: 3px;
+    list-style-type: none;
+    padding-left: 0%;
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.sticky-pos > li {
+    margin-left: 1rem;
+}
